@@ -9,8 +9,7 @@ var button0ne = document.getElementById("buttonOne");
 // var butt = document.getElementById("butt");
 var killer = document.getElementById("killer");
 var killerOne = document.getElementById("killerOne");
-var killerTow =[];//杀手
-var man =[];//水民
+var player = '';
 rangeNum.onchange = function (rangOne) {
     textNum.value = rangeNum.value
 };
@@ -115,6 +114,16 @@ function setBtn() {
     all=JSON.stringify(all);
     sessionStorage.setItem("play",all);
 }
+function next() {
+    if (player == "") {
+        alert("请点击设置身份哦");
+    }
+    else {
+        window.location.href = "task2-3.html";
+    }
+}
+
+
 
 
 
