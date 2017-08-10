@@ -1,0 +1,137 @@
+@charset "UTF-8";
+.wi-dth {
+  min-width: 320px;
+  max-width: 780px;
+}
+.border {
+  border: solid 1px #c9c9c9;
+}
+.display {
+  display: flex;
+  align-items: center;
+}
+.dis-play {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ma {
+  padding: 75px 35px 25px;
+}
+.ga {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  font-size: 1.3rem;
+}
+body {
+  min-width: 320px;
+  max-width: 780px;
+  margin: 0 auto;
+}
+header {
+  min-width: 320px;
+  max-width: 780px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background-color: #29bde0;
+}
+main {
+  padding: 75px 35px 25px;
+  background-color: #f0f0f0;
+}
+.hamburgers {
+  width: 2.1rem;
+  height: 5px;
+  background-color: #ffffff;
+  margin: 8px 20px;
+}
+.game {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  font-size: 1.3rem;
+  justify-content: space-between;
+  height: 115px;
+  padding: 0 15px ;
+  margin: 20px 0;
+  color: #9a9a9a;
+  border: solid 1px #c9c9c9;
+}
+.gam {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  font-size: 1.3rem;
+  height: 90px;
+  justify-content: center;
+  color: #fbb435;
+  border-top: solid 1px #c9c9c9;
+  border-right: solid 1px #c9c9c9;
+  border-left: solid 1px #c9c9c9;
+  border-bottom: solid 2px #fbb435;
+}
+.simplify {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  font-size: 1.3rem;
+  border: solid 1px #c9c9c9;
+}
+.version {
+  width: 90%;
+  padding-left: 10%;
+}
+.son {
+  text-decoration: none;
+}
+.triangle {
+  width: 10%;
+}
+.sim {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 135px;
+  margin: 25px;
+  background-color: #29bde0;
+  color: white;
+  cursor: pointer;
+}
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9a9a9a;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border: solid 30px ;
+  border-color: transparent transparent transparent #fbb435;
+}
+.point-round {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+.point {
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+}
+.point:hover {
+  background-color: #29bde0;
+}

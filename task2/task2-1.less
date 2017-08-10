@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+//常用组件
+@head:#29bde0;
+@main:#f0f0f0;
+@text:#9a9a9a;
+@text1:#fbb435;
+.wi-dth{
+  min-width: 320px;
+  max-width: 780px;
+}
+.back(@color:@head){
+  background-color: @color;
+}
+.height(@height:70px){
+  height: @height;
+}
+.font(@font-size:1.3rem){
+  font-size: @font-size;
+}
+.border{
+  border: solid 1px #c9c9c9;
+}
+.display{
+  display: flex;
+  align-items: center;
+}
+.dis-play{
+  .display;
+  justify-content: space-between;
+}
+.dis{
+  .display;
+  justify-content: center;
+}
+.ma{
+  padding: 75px 35px 25px;
+}
+.ga{
+  .display;
+  .back(white);
+  .font();
+}
+body{
+  .wi-dth;
+  margin: 0 auto;
+}
+//头部
+header{
+  .wi-dth;
+  position: fixed;
+  .display;
+  width: 100%;
+  .height();
+  .back();
+}
+//内容
+main{
+  .ma;
+  .back(@main)
+}
+.hamburgers{
+  width: 2.1rem;
+  .height(5px);
+  .back(white);
+  margin: 8px 20px;
+}
+.game{
+  .ga;
+  justify-content: space-between;
+  .height(115px);
+  padding: 0 15px ;
+  margin: 20px 0;
+  color:@text ;
+  .border;
+}
+.gam{
+  .ga;
+  .height(90px);
+  justify-content: center;
+  color:@text1 ;
+  border-top: solid 1px #c9c9c9;
+  border-right: solid 1px #c9c9c9;
+  border-left: solid 1px #c9c9c9;
+  border-bottom: solid 2px @text1;
+}
+.simplify{
+  .dis-play;
+  .back(white);
+  .font();
+  .border;
+}
+.version{
+  width: 90%;
+  padding-left: 10%;
+}
+.son{
+  text-decoration: none;
+}
+.triangle{
+  width: 10%;
+}
+.sim{
+  .dis;
+  height: 135px;
+  margin: 25px;
+  .back();
+  color: white;
+  cursor: pointer;
+}
+.user{
+  .dis;
+  color: @text;
+}
+//三角
+.triangle{
+  width: 0;
+  height: 0;
+  border: solid 30px ;
+  border-color: transparent transparent transparent @text1;
+}
+.point-round{
+  .dis;
+  height: 40px;
+}
+.point{
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  .back(@main);
+  &:hover{
+    .back()
+  }
+  border-radius: 50%;
+}

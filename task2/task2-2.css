@@ -1,0 +1,176 @@
+@charset "UTF-8";
+.dis {
+  display: flex;
+}
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.displ {
+  display: flex;
+  justify-content: space-between;
+}
+.winw {
+  min-width: 320px;
+  max-width: 780px;
+}
+body {
+  min-width: 320px;
+  max-width: 780px;
+  margin: 0 auto;
+  font-size: 62.5%;
+}
+header {
+  background-color: #29bde0;
+}
+.img-back {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  background-color: #29bde0;
+}
+main {
+  background-color: #f0f0f0;
+  font-size: 2rem;
+}
+.wr-lra {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  letter-spacing: 8px;
+}
+.button—one {
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+  overflow: auto;
+  padding-top: 15px;
+  background-color: #fbfbfb;
+  border-left: solid 1px #d9d9d9;
+  list-style: none;
+  margin-bottom: 0;
+}
+.wan {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 1rem;
+  background-color: #fbb435;
+  padding: 0.5rem;
+}
+.box {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 1rem;
+  background-color: #29bde0;
+  padding: 0.5rem;
+}
+.killer-box {
+  margin-right: 15%;
+  letter-spacing: 1rem;
+}
+@media screen and (max-width: 605px) {
+  .button—one {
+    display: block;
+    text-align: center;
+  }
+}
+.button-tow {
+  height: 50px;
+  line-height: 50px;
+  overflow: hidden;
+  background-color: #fbfbfb;
+  text-align: center;
+  border-top: solid 1px #d9d9d9;
+  border-left: solid 1px #d9d9d9;
+}
+.to {
+  outline: none;
+  border: none;
+}
+.button-to {
+  outline: none;
+  border: none;
+  background-color: #fbfbfb;
+  color: #29bde0;
+}
+.phr {
+  background-color: white;
+  display: flex;
+}
+.phrase {
+  width: 100%;
+  border: none;
+  border-bottom: solid 1px #f0f0f0;
+  outline: none;
+}
+.input-tow {
+  width: 50px;
+  margin: 0 15px;
+  color: #fbb435;
+}
+.srs-minus,
+.srs-plus,
+.srs-thumb {
+  border-radius: 5px;
+}
+.button-three {
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: #fab344;
+  color: white;
+}
+.btn {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  border: solid 1px #d9d9d9;
+}
+.btnSub {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  border: solid 1px #d9d9d9;
+  background-image: url("img/reduce1.png");
+}
+.btnAdd {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  border: solid 1px #d9d9d9;
+  background-image: url("img/plus1.png");
+}
+input[type=range] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 0.28rem;
+  vertical-align: middle;
+  background-color: #fcc671;
+  outline: none;
+}
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 62px;
+  height: 38px;
+  vertical-align: middle;
+  background-image: url("img/grip.png");
+  cursor: pointer;
+}
