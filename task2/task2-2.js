@@ -86,16 +86,16 @@ function setBtn() {
     //设置平民数组的长度
     people.length = z - killer.length;
     //为数组killer和people填充元素
-    for (var i = 0; i < killer.length; i++) {//不能在<号后面加=号，否则会变成死循环，成为一段病毒！！！！！！！！！！！！！！！！
+    for (var i = 0; i < killer.length; i++) {
         killer[i] = "杀手";
     }
     for (var j = 0; j <people.length; j++) {
         people[j] = "平民";
     }
-    all = killer.concat(people);
+    var all = killer.concat(people);
     function shuffle(all) {
         var m = all.length;
-        console.log(all);
+        // console.log(all);
         var t;
         var b;
         while (m) {
@@ -119,7 +119,7 @@ function next() {
         alert("请点击设置身份哦");
     }
     else {
-        window.location.href = "task2-3.html";
+        window.location.href = "../task3/task3-1.html";
     }
 }
 
