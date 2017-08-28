@@ -1,0 +1,153 @@
+body{
+    margin: 0  auto;
+    font-size: 62.5%;
+    min-width: 320px;
+    max-width: 780px;
+
+}
+header{
+    width:100%;
+    background-color:#5fc0cd;
+    color: white;
+    height: 50px;
+    position: fixed;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    min-width: 320px;
+    max-width: 780px;
+
+
+}
+footer{
+    position:fixed;
+    bottom:0;
+    height:50px;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    background-color: white;
+    width:100%;
+    min-width: 320px;
+    max-width: 780px;
+}
+.message{
+    border: solid 1px ;
+    border-color: #5fc0cd;
+    background-color: white;
+    text-align: center;
+    font-size: 1rem;
+    width: 45%;
+    height: 35px;
+    border-radius: 10px;
+    display:inline-block;
+    padding-top: 10px;
+    margin-right: 3px;
+    text-decoration:none;
+    color: #5fc0cd;
+}
+
+.phone{
+    border: solid 1px ;
+    background-color: #5fc0cd;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    width: 45%;
+    height: 35px;
+    border-radius: 10px;
+    display:inline-block;
+    padding-top: 10px;
+    margin-left: 3px;
+    text-decoration:none;
+}
+main{
+    margin-top: 50px;
+    align-items: center;
+}
+.picture{
+    height:200px;
+    background-color: #cccccc;
+    background-image:url(img/picture.png);
+    background-size:cover;
+    display: flex;
+    align-items:center;
+
+}
+.shape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 225px;
+}
+.name{
+    font-size: 1rem;
+    vertical-align: bottom;
+}
+.skill{
+    height: 50px;
+    border-bottom: solid 1px ;
+    border-color: #ccc;
+    display: flex;
+    align-items: center;
+}
+.profession{
+    border-left: solid 3px;
+    border-color:#5fc0cd ;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+.hom{
+    height:50px;
+    margin: 0 10px;
+    border-bottom: solid 1px ;
+    border-color: #ccc;
+    font-size: 1rem;
+}
+.star{
+    width: 100px;
+    height: 20px;
+    float: left;
+    margin:10px 10px;
+}
+
+.home{
+
+    margin: 0 10px;
+    height: 50px;
+    border-bottom: solid 1px ;
+    border-color: #ccc;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-left: 10px;
+}
+.job{
+    border-right: solid 1px;
+    border-color: #ccc;
+    width: 95px;
+    margin-right: 10px;
+    color: #ccc;
+}
+.oneself{
+    margin: 0 10px;
+    border-bottom: solid 1px ;
+    border-color: #ccc;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    margin-bottom: 100px;
+}
+.jo {
+    padding: 10px;
+}
+.p{
+    flex-shrink:0;
+    width:95px;
+    border-right: solid 1px;
+    border-color: #ccc;
+    padding: 10px 0;
+}
